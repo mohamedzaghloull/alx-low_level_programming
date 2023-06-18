@@ -6,19 +6,12 @@
  */
 int main(void)
 {
-	int ch = 97;
+        int n = 0;
 
-	while (ch <= 122)
-
-	{
-		if (ch == 101 || ch == 113)
-		{
-			ch++;
-			continue;
-		}
-		putchar(ch);
-		ch++;
-	}
-	putchar('\n');
-	return (0);
+        while (n <= 9)
+        {
+                printf("%d", n);
+                        n++;
+        }
+        return (0);
 }
